@@ -5,47 +5,8 @@
 
 # @author: ozgur
 # """
-# from enum import Enum
-# from datetime import date
-# import sys
-# from pathlib import Path 
-
-# class Weekdays(Enum) :
-#     MONDAY = 1 
-#     TUESDAY = 2 
-#     WEDNESDAY = 3
-#     THURSDAY = 4
-#     FRIDAY = 5 
-#     SATURDAY = 6 
-#     SUNDAY = 7 
-#     @classmethod
-#     def from_date(cls, date):
-#         return cls(date.isoweekday())
-
-# # for i in range(1,8): 
-# #     print(Weekdays(i))
-
-# # a  = Weekdays.from_date(date.today())  
-# # print(a)
-
-# b = list(Weekdays)
-# # print(b)
-
-# L = iter(b)
-
-# # testList = list(None for i in range(1,100))
-# testList = list()
-# # print(testList)
-# for i in range(1,100): 
-#     testList.append(i) 
 
 
-# c = iter(testList)
-
-# target_path = Path("data")/"extra_detail.log"
-# with target_path.open('w') as target_file: 
-#     print(c, file=target_file)
-#     print(testList, file=target_file)
 
 def mult_table(): 
     "This function prints multiply table until 10"
